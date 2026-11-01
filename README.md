@@ -50,6 +50,19 @@ Docker 설치 여부를 확인하고 컨테이너 실행을 실습했습니다.
 - `hello-world` 이미지 실행
 - Ubuntu 컨테이너 실행
 - `attach`와 `exec` 명령어 학습
+### Ubuntu 컨테이너 exec 실습
+
+실행 중인 Ubuntu 컨테이너 내부에서 명령어를 실행했습니다.
+
+- `docker exec -it cheer-vol-2 bash`: 컨테이너 내부 접속
+- `pwd`: 현재 작업 디렉터리 확인
+- `ls /`: 최상위 디렉터리 목록 확인
+- `exit`: 컨테이너에서 나가기
+
+실행 결과:
+- 현재 위치 `/` 확인
+- Ubuntu 최상위 디렉터리 목록 확인
+- exec 명령어 실행 성공
 
 ## 6. Dockerfile로 이미지 만들기
 
